@@ -1,0 +1,13 @@
+{
+  "name": "kliniku-pamainu-grafikas-ii-etapas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Programų sistemų projektavimo II etapas – klinikos pamainų grafiko prototipas",
+  "engines": { "node": ">=22.16.0" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning --experimental-strip-types src/server.ts",
+    "test": "node --disable-warning=ExperimentalWarning --experimental-strip-types --test tests/engine.test.ts tests/api.test.ts",
+    "check": "npm test"
+  }
+}
